@@ -4,7 +4,10 @@ body {
 	background-color: black;
 }
 #header {
-	color: green;
 	text-align: center;
+	position: relative; /* aka daddy */
+	top: 50%;
+	color: green;	
 	font-family: 'Source Code Pro', monospace;
+	font-size: 20px;
 }
