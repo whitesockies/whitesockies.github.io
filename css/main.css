@@ -45,11 +45,6 @@ a:active {color: rgb(154, 199, 145); text-decoration: none;}
 
 /* dropdown */
 .dropbtn {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 	background-color: black;
 	color: white;
 	padding: 16px;
@@ -57,7 +52,11 @@ a:active {color: rgb(154, 199, 145); text-decoration: none;}
 	border: none;
 }
 .dropdown {
-	position: relative;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	display: inline-block;
 }
 .dropdown-content {
