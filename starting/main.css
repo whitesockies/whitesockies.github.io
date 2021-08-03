@@ -45,11 +45,7 @@ a:active {color: rgb(154, 199, 145); text-decoration: none;}
 
 /* dropdown */
 .dropbtn {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	font-family: 'Source Code Pro', monospace;
 	background-color: black;
 	color: white;
 	padding: 16px;
@@ -57,6 +53,7 @@ a:active {color: rgb(154, 199, 145); text-decoration: none;}
 	border: none;
 }
 .dropdown {
+	text-align: center;
 	position: relative;
 	display: inline-block;
 }
