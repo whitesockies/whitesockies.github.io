@@ -33,14 +33,20 @@ body {
 
 /* links */
 a:link {
-  color: white;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
 }
 a:visited {
-  color: white;
+	color: white;
+	text-decoration: none;
 }
 a:hover {
-  color: rgb(154, 199, 145);
+	color: rgb(154, 199, 145);
+	text-decoration: none;
 }
 a:active {
-  color: rgb(154, 199, 145);
+	color: rgb(154, 199, 145);
+	text-decoration: none;
 }
