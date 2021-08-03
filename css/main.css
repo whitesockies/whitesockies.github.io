@@ -30,3 +30,17 @@ body {
 	font-family: 'Source Code Pro', monospace;
 	font-size: 15px;
 }
+
+/* links */
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rgb(154, 199, 145);
+}
+a:active {
+  color: rgb(154, 199, 145);
+}
