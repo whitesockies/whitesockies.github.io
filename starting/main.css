@@ -53,9 +53,8 @@ a:active {color: rgb(154, 199, 145); text-decoration: none;}
 	border: none;
 }
 .dropdown {
-	text-align: center;
-	position: relative;
-	display: inline-block;
+	margin:0 auto;
+	display: block;
 }
 .dropdown-content {
 	display: none;
